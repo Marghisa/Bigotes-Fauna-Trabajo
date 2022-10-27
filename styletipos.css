@@ -20,6 +20,7 @@ header p {
 button {
 background-color: transparent;
 border: none;
+font-family: 'Sofia'
 }
 
 body{
@@ -53,7 +54,11 @@ h3{
   margin: 0;
   text-align: center;
   font-family: "Sofia", sans-serif;
+  
 }
+
+
+
 
 .angora {
   margin-top: 280px;
@@ -62,7 +67,19 @@ h3{
 h5 {
   color: #5c2805;
   font-family: "Sofia", sans-serif;
+ 
 }
+
+
+h2 {
+  color: #5c2805;
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 15%;
+ 
+}
+
 
 p {
   font-size: 18px; 
@@ -171,7 +188,7 @@ width: 150px;
 
 
 
-@media  (max-width:360px) {
+@media  (min-width:360px) and (max-width:414px) {
 
 
   .wrapper {
@@ -242,9 +259,17 @@ width: 150px;
   button {
   background-color: transparent;
   border: none;
-  font-size: 10px;
+  font-size: 15px;
 
   }
+
+  
+h2 {
+  color: #5c2805;
+  font-size: 10px;
+  margin-left: 5%;
+ 
+}
 
   footer {
     align-items: flex-start;
@@ -254,7 +279,7 @@ width: 150px;
 
 
 
-@media  (max-width:1024px) {
+@media  (min-width:415px) and (max-width:540px){
 
   .wrapper {
   width:90%;
@@ -315,6 +340,14 @@ p {
 
 }
 
+  
+h2 {
+  color: #5c2805;
+  font-size: 25px;
+  margin-left: 5%;
+ 
+}
+
 header {
   width: 100%;
   text-align: center;
@@ -333,3 +366,291 @@ footer {
   margin-top: -250px;
 }
 }
+
+
+
+@media  (min-width:541px) and (max-width:768px){
+
+  .wrapper {
+  width:90%;
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.one {
+width:100%;
+height: auto;
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: center;
+
+
+}
+
+.tabla {
+width:90% ;
+font-size: 12px;
+
+}
+
+.zoom{
+width: 200px;
+height: 200px;
+
+}
+
+.zoom:hover {
+
+display: none;
+}
+
+.four {
+
+display: flex;
+flex-direction: column-reverse;
+height: auto;
+justify-content:flex-start;
+align-items:center;
+text-align: justify;
+width: 95%;
+}
+
+.angora {
+ margin: 5px;
+}
+
+p {
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 8%;
+
+}
+
+  
+h2 {
+  color: #5c2805;
+  font-size: 25px;
+  margin-left: 15%;
+ 
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+background-color: transparent;
+border: none;
+font-size: 20px;
+
+}
+
+dl {
+  font-size: 18px;
+  
+}
+
+footer {
+  align-items: flex-start;
+  margin-top: -250px;
+}
+}
+
+
+
+
+
+
+@media  (min-width:769px) and (max-width:1024px){
+
+  .wrapper {
+  width:90%;
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.one {
+width:100%;
+height: auto;
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: center;
+
+
+}
+
+.tabla {
+width:90% ;
+font-size: 12px;
+
+}
+
+.zoom{
+width: 200px;
+height: 200px;
+
+}
+
+.zoom:hover {
+
+display: none;
+}
+
+.four {
+
+display: flex;
+flex-direction: column-reverse;
+height: auto;
+justify-content:flex-start;
+align-items:center;
+text-align: justify;
+width: 95%;
+}
+
+.angora {
+ margin: 5px;
+}
+
+p {
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 8%;
+
+}
+
+  
+h2 {
+  color: #5c2805;
+  font-size: 25px;
+  margin-left: 15%;
+ 
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+background-color: transparent;
+border: none;
+font-size: 20px;
+
+}
+
+footer {
+  align-items: flex-start;
+  margin-top: -250px;
+}
+}
+
+
+
+
+
+
+@media  (min-width:1025px) and (max-width:1280px){
+
+  .wrapper {
+  width:90%;
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.one {
+width:100%;
+height: auto;
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: center;
+
+
+}
+
+.tabla {
+width:90% ;
+font-size: 12px;
+
+}
+
+.zoom{
+width: 200px;
+height: 200px;
+
+}
+
+.zoom:hover {
+
+display: none;
+}
+
+.four {
+
+display: flex;
+flex-direction: column-reverse;
+height: auto;
+justify-content:flex-start;
+align-items:center;
+text-align: justify;
+width: 95%;
+}
+
+.angora {
+ margin: 5px;
+}
+
+p {
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 8%;
+
+}
+
+  
+h2 {
+  color: #5c2805;
+  font-size: 25px;
+  margin-left: 15%;
+ 
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+background-color: transparent;
+border: none;
+font-size: 20px;
+
+}
+
+
+dl {
+  font-size: 18px;
+  
+}
+
+footer {
+  align-items: flex-start;
+  margin-top: -250px;
+}
+}
+
